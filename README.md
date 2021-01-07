@@ -1,4 +1,4 @@
-# iotex-dapp-vercel-teamplate
+# Iotex Dapp Vercel Teamplate
 
 This directory is a brief example of a [Blitz.js](https://blitzjs.com/) project that can be deployed with Vercel and zero configuration.
 

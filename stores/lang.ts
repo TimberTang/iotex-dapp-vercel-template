@@ -26,7 +26,7 @@ export class LangStore {
   async init() {
     const urlParams = new URLSearchParams(window.location.search)
     const langFromQuery = urlParams.get("lang")
-    const broswerLang = _.get(navigator.languages, "0", navigator.language)
+    const broswerLang = navigator.languages ? navigator.languages[0] : navigator.language
     let lang = langFromQuery || localStorage.getItem("lang") || broswerLang
     if (fileNameMapping[lang]) {
       lang = fileNameMapping[lang]

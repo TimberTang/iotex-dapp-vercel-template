@@ -1,8 +1,8 @@
 import { BlitzPage } from "blitz"
 import { observer } from "mobx-react-lite"
 import Layout from "app/layouts/Layout"
-import { useStore } from "stores"
-import { globalStyles } from "utils/styles"
+import { useStore } from "app/stores"
+import { globalStyles } from "app/utils/styles"
 
 const Home: BlitzPage = observer(() => {
   const { lang } = useStore()

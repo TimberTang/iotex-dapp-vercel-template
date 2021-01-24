@@ -1,7 +1,7 @@
 import { BlitzPage } from "blitz"
 import { observer } from "mobx-react-lite"
 import Layout from "app/layouts/Layout"
-import { useStore } from "stores"
+import { useStore } from "app/stores"
 
 const Teamplate: BlitzPage = observer(() => {
   const { lang } = useStore()

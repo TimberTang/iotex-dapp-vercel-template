@@ -1,7 +1,7 @@
 import { AppProps } from "blitz"
 import { useEffect } from "react"
-import { useStore } from "stores"
-import { css } from "utils/stitches.config"
+import { useStore } from "app/stores"
+import { css } from "app/utils/stitches.config"
 
 css.global({
   body: {

@@ -1,4 +1,4 @@
-import { css } from "utils/stitches.config"
+import { css } from "app/utils/stitches.config"
 export const globalStyles = {
   container: css({
     minHeight: "100vh",

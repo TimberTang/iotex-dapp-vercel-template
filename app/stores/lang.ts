@@ -1,7 +1,7 @@
 import axios from "axios"
 import { _ } from "../utils/lodash"
 import { makeAutoObservable } from "mobx"
-import en from "../public/translations/en.json"
+import en from "../../public/translations/en.json"
 
 type Translation = typeof en
 

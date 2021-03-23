@@ -16,6 +16,11 @@ export class TodoStore {
   toggleTodo(index: number) {
     this.todos[index].completed = !this.todos[index].completed
   }
+
+  deleteTodo(index: number) {
+    this.todos.splice(index, 1)
+  }
+
   get remainingTodos(): number {
     return this.todos.filter((t) => !t.completed).length
   }

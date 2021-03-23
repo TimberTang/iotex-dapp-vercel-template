@@ -3,6 +3,7 @@ import { enableStaticRendering } from "mobx-react-lite"
 import { createContext, useContext } from "react"
 import { BaseStore } from "./base"
 import { LangStore } from "./lang"
+import { TodoStore } from "./template"
 
 const isServer = typeof window === "undefined"
 
@@ -11,6 +12,7 @@ enableStaticRendering(isServer)
 export const rootStore = {
   base: new BaseStore(),
   lang: new LangStore(),
+  todoStore: new TodoStore()
 }
 
 export const StoresContext = createContext(rootStore)

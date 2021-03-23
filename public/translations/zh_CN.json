@@ -1,3 +1,5 @@
 {
-  "hello": "你好 ${message}"
+  "hello": "你好 ${message}",
+  "add-new": "新增Todo",
+  "completed": "已完成"
 }

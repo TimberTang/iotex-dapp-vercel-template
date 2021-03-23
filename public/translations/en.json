@@ -1,3 +1,5 @@
 {
-  "hello": "hello ${message}"
+  "hello": "hello ${message}",
+  "add-new": "Add New Todo",
+  "completed": "Completed"
 }
